@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'app/view/home_page.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       debugShowCheckedModeBanner: false,
-      home: null,
+      home: HomePage(),
     );
   }
 }
